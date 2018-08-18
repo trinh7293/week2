@@ -1,0 +1,19 @@
+Kỹ thuật phân tích và tiền xử lý số liệu sử dụng pandas 
+
+Trong bài tập này, các bạn sẽ được làm quen với việc phân tích và tiền xử lý dữ liệu thông qua việc tập dữ liệu bệnh tiểu đường (được đính kèm trong file diabetes.csv).
+
+Thông tin chi tiết về tập dữ liệu tham khảo tại https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+Trả lời các câu hỏi: 
+
+(1) Dữ liệu này gồm bao nhiêu trường, ý nghĩa các trường 
+(2) Dữ liệu này gồm bao nhiêu hàng
+(3) Tính giá trị min, max, std của mỗi trường 
+(4) Phân tích mật độ dữ liệu, vẽ biểu đồ historgram của mỗi trường 
+(5) Phân tích tương quan (correlation) giữa các biến
+Chỉ số nào quyết định nhiều nhất đến Trường nào tương quan nhiều nhất với trường Outcome 
+(5) Xử lý dữ liệu missing (nếu có) ở mỗi trường, theo các phương pháp loại bỏ hoặc thay thế (theo giá trị min, max, mean tương ứng)
+(6) Chuẩn hóa dữ liệu: Áp dụng phương pháp z-normalization và min-max normalization để chuẩn hóa dữ liệu các trường
+(7) Binning dữ liệu:  Chia giá trị của trường Age thành các khoảng 10 tuổi (21-31, 31-41, ..., 71-81)
+(8) Chuyển dữ liệu từ multi value thành multi column, thêm các trường age_x_y (với (x,y) = (21, 31), (31, 41), ... (71,81)).
+Giá trị của trường age_x_y bằng 1 nếu x <= Age <= y, bằng 0 trong các trường hợp còn lại 
